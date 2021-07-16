@@ -49,14 +49,19 @@
     margin-right: var(--half-gap);
     background-color: lightblue;
   }
-  .image > .container > .row > .col-12:first-of-type {
+  .image > .container {
+    background: url('../../img/image-sec.png');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    object-position: right;
+  }
+  .image > .container > .row > .col-6:first-of-type {
     color: blue;
   }
-  .image > .container > .row > .col-12:nth-of-type(2) {
+  .image > .container > .row > .col-6:nth-of-type(2) {
+    text-align: left;
     font-size: 70px;
-  }
-  .logo > .container > .row {
-    text-align: center;
   }
   .row > .reverse {
     float: right;
